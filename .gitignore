@@ -1,0 +1,30 @@
+# IDE and editor settings
+.idea/
+**/.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Node / frontend artifacts
+**/node_modules/
+**/dist/
+**/coverage/
+
+# Java / backend artifacts
+**/target/
+**/build/
+**/.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+**/*.log
